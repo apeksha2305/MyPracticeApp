@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyPracticeApp</string>
+    <string name="email_hint">Please Enter Email Id</string>
+    <string name="registration">Registration</string>
+</resources>

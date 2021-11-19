@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/background_black_border"
+            android:hint="@string/email_hint"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_gray"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/background_black_border"
+            android:hint="@string/email_hint"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_gray"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="@string/registration"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</layout>
